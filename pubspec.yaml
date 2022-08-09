@@ -1,8 +1,12 @@
-name: tic_tac_toe_example
+name: tic_tac_toe
+description: A beautiful Tic Tac Toe Game from scratch with Flutter.
 version: 1.0.0+1
 
 environment:
   sdk: ">=2.3.0 <3.0.0"
+
+module:
+  androidX: true # Add this line.
 
 dependencies:
   flutter:
