@@ -70,7 +70,7 @@ class _MainPageState extends State<MainPage> {
           minimumSize: Size(size, size),
           primary: play.fieldColor,
         ),
-        child: Text(play.value, style: TextStyle(fontSize: 32)),
+        child: Text(play.value, style: TextStyle(fontSize: 52)),
         onPressed: () => selectField(play, x, y),
       ),
     );
